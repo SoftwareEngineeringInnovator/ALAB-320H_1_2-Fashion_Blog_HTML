@@ -16,3 +16,26 @@ h1 {
 img {
   width: 100%;
 }
+
+.main-navigation, .footer-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style-type: none;
+}
+
+.main-navigation {
+  justify-content: space-between;
+}
+
+.main-navigation a {
+  color: lightgray;
+}
+
+.footer-navigation {
+  gap: 1rem;
+}
+
+.footer-navigation a {
+  color: tomato;
+}
