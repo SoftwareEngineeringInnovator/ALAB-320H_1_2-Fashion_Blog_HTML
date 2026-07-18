@@ -76,3 +76,19 @@ article p::first-letter {
   font-weight: bold;
   text-align: right;
 }
+
+header h1 {
+  margin-bottom: 0;
+  font-size: 3.5rem;
+  font-weight: normal;
+}
+
+header h2 {
+  margin-top: 0.25rem;
+  font-size: 1.75rem;
+  font-weight: normal;
+}
+
+.copyright {
+  color: lightgray;
+}
