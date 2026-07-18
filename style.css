@@ -39,3 +39,40 @@ img {
 .footer-navigation a {
   color: tomato;
 }
+
+article {
+  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid lightgray;
+}
+
+article time {
+  color: gray;
+  font-size: 1.5rem;
+}
+
+article h2 {
+  margin: 0.5rem 0 1rem;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+article p {
+  line-height: 1.6;
+}
+
+article p::first-letter {
+  float: left;
+  margin-right: 0.5rem;
+  color: lightgray;
+  font-size: 6rem;
+  line-height: 0.8;
+}
+
+.continues-link {
+  display: block;
+  margin-top: 1rem;
+  color: tomato;
+  font-weight: bold;
+  text-align: right;
+}
